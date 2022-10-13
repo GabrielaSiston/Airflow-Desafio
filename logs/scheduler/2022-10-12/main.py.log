@@ -1,0 +1,515 @@
+[2022-10-12T15:58:49.661-0500] {processor.py:156} INFO - Started process (PID=125028) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T15:58:49.662-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T15:58:49.662-0500] {logging_mixin.py:117} INFO - [2022-10-12T15:58:49.662-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T15:58:49.665-0500] {logging_mixin.py:117} INFO - [2022-10-12T15:58:49.664-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 15
+    main(sys.argv[1:])
+    ^
+IndentationError: expected an indented block
+[2022-10-12T15:58:49.666-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T15:58:49.686-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.028 seconds
+[2022-10-12T15:59:20.547-0500] {processor.py:156} INFO - Started process (PID=125112) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T15:59:20.549-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T15:59:20.549-0500] {logging_mixin.py:117} INFO - [2022-10-12T15:59:20.549-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T15:59:20.551-0500] {logging_mixin.py:117} INFO - [2022-10-12T15:59:20.551-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 15
+    main(sys.argv[1:])
+    ^
+IndentationError: expected an indented block
+[2022-10-12T15:59:20.552-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T15:59:20.571-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.027 seconds
+[2022-10-12T15:59:50.794-0500] {processor.py:156} INFO - Started process (PID=125171) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T15:59:50.796-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T15:59:50.797-0500] {logging_mixin.py:117} INFO - [2022-10-12T15:59:50.797-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T15:59:50.799-0500] {logging_mixin.py:117} INFO - [2022-10-12T15:59:50.798-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 15
+    main(sys.argv[1:])
+    ^
+IndentationError: expected an indented block
+[2022-10-12T15:59:50.799-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T15:59:50.820-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.029 seconds
+[2022-10-12T16:00:21.104-0500] {processor.py:156} INFO - Started process (PID=125272) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:00:21.106-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:00:21.107-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:00:21.107-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:00:21.111-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:00:21.110-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:00:21.112-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:00:21.132-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.030 seconds
+[2022-10-12T16:00:51.496-0500] {processor.py:156} INFO - Started process (PID=125389) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:00:51.498-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:00:51.499-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:00:51.499-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:00:51.504-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:00:51.502-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:00:51.505-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:00:51.529-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.038 seconds
+[2022-10-12T16:01:21.806-0500] {processor.py:156} INFO - Started process (PID=125530) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:01:21.808-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:01:21.808-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:01:21.808-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:01:21.811-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:01:21.810-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:01:21.811-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:01:21.831-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.028 seconds
+[2022-10-12T16:01:52.032-0500] {processor.py:156} INFO - Started process (PID=125705) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:01:52.034-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:01:52.035-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:01:52.035-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:01:52.038-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:01:52.036-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:01:52.039-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:01:52.059-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.030 seconds
+[2022-10-12T16:02:22.401-0500] {processor.py:156} INFO - Started process (PID=125905) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:02:22.404-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:02:22.405-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:02:22.405-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:02:22.410-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:02:22.408-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:02:22.410-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:02:22.433-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.040 seconds
+[2022-10-12T16:02:52.855-0500] {processor.py:156} INFO - Started process (PID=126011) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:02:52.857-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:02:52.858-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:02:52.857-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:02:52.860-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:02:52.859-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:02:52.860-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:02:52.879-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.028 seconds
+[2022-10-12T16:03:23.359-0500] {processor.py:156} INFO - Started process (PID=126100) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:03:23.361-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:03:23.362-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:03:23.362-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:03:23.365-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:03:23.364-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:03:23.366-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:03:23.388-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.034 seconds
+[2022-10-12T16:03:53.738-0500] {processor.py:156} INFO - Started process (PID=126324) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:03:53.741-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:03:53.742-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:03:53.742-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:03:53.745-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:03:53.744-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:03:53.745-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:03:53.769-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.035 seconds
+[2022-10-12T16:04:24.120-0500] {processor.py:156} INFO - Started process (PID=126453) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:04:24.123-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:04:24.124-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:04:24.124-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:04:24.129-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:04:24.128-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:04:24.129-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:04:24.150-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.037 seconds
+[2022-10-12T16:04:54.447-0500] {processor.py:156} INFO - Started process (PID=126611) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:04:54.449-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:04:54.450-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:04:54.450-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:04:54.453-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:04:54.452-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:04:54.453-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:04:54.472-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.028 seconds
+[2022-10-12T16:05:24.823-0500] {processor.py:156} INFO - Started process (PID=126706) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:05:24.864-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:05:24.864-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:05:24.864-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:05:24.867-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:05:24.866-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:05:24.867-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:05:24.887-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.068 seconds
+[2022-10-12T16:05:55.098-0500] {processor.py:156} INFO - Started process (PID=126783) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:05:55.138-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:05:55.139-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:05:55.139-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:05:55.143-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:05:55.141-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:05:55.143-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:05:55.164-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.068 seconds
+[2022-10-12T16:06:25.432-0500] {processor.py:156} INFO - Started process (PID=126850) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:06:25.435-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:06:25.436-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:06:25.436-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:06:25.440-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:06:25.439-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:06:25.441-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:06:25.466-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.038 seconds
+[2022-10-12T16:06:55.848-0500] {processor.py:156} INFO - Started process (PID=126905) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:06:55.851-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:06:55.852-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:06:55.851-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:06:55.855-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:06:55.854-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:06:55.856-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:06:55.879-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.039 seconds
+[2022-10-12T16:07:26.259-0500] {processor.py:156} INFO - Started process (PID=126980) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:07:26.261-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:07:26.261-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:07:26.261-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:07:26.264-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:07:26.263-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:07:26.264-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:07:26.284-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.028 seconds
+[2022-10-12T16:07:56.715-0500] {processor.py:156} INFO - Started process (PID=127047) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:07:56.717-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:07:56.718-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:07:56.718-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:07:56.721-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:07:56.720-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:07:56.721-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:07:56.742-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.030 seconds
+[2022-10-12T16:08:27.232-0500] {processor.py:156} INFO - Started process (PID=127115) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:08:27.234-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:08:27.234-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:08:27.234-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:08:27.237-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:08:27.236-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:08:27.237-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:08:27.259-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.029 seconds
+[2022-10-12T16:08:57.813-0500] {processor.py:156} INFO - Started process (PID=127258) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:08:57.815-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:08:57.816-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:08:57.815-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:08:57.818-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:08:57.817-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:08:57.818-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:08:57.843-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.033 seconds
+[2022-10-12T16:09:28.218-0500] {processor.py:156} INFO - Started process (PID=127336) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:09:28.220-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:09:28.221-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:09:28.221-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:09:28.223-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:09:28.223-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:09:28.224-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:09:28.245-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.030 seconds
+[2022-10-12T16:09:58.440-0500] {processor.py:156} INFO - Started process (PID=127409) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:09:58.442-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:09:58.443-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:09:58.443-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:09:58.446-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:09:58.445-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:09:58.446-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:09:58.470-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.033 seconds
+[2022-10-12T16:10:28.684-0500] {processor.py:156} INFO - Started process (PID=127486) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:10:28.686-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:10:28.686-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:10:28.686-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:10:28.689-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:10:28.687-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:10:28.689-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:10:28.708-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.026 seconds
+[2022-10-12T16:10:59.004-0500] {processor.py:156} INFO - Started process (PID=127581) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:10:59.007-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:10:59.008-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:10:59.008-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:10:59.011-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:10:59.010-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:10:59.011-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:10:59.033-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.034 seconds
+[2022-10-12T16:11:29.199-0500] {processor.py:156} INFO - Started process (PID=127646) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:11:29.201-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:11:29.202-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:11:29.201-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:11:29.204-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:11:29.203-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:11:29.204-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:11:29.224-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.028 seconds
+[2022-10-12T16:11:59.482-0500] {processor.py:156} INFO - Started process (PID=127740) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:11:59.485-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:11:59.485-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:11:59.485-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:11:59.490-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:11:59.489-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:11:59.491-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:11:59.511-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.036 seconds
+[2022-10-12T16:12:29.717-0500] {processor.py:156} INFO - Started process (PID=127978) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:12:29.719-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:12:29.719-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:12:29.719-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:12:29.725-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:12:29.722-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:12:29.726-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:12:29.756-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.042 seconds
+[2022-10-12T16:13:00.065-0500] {processor.py:156} INFO - Started process (PID=128331) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:13:00.068-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:13:00.069-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:13:00.068-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:13:00.072-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:13:00.071-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:13:00.072-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:13:00.092-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.033 seconds
+[2022-10-12T16:13:30.293-0500] {processor.py:156} INFO - Started process (PID=128531) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:13:30.296-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:13:30.297-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:13:30.296-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:13:30.301-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:13:30.300-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:13:30.301-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:13:30.322-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.033 seconds
+[2022-10-12T16:14:00.491-0500] {processor.py:156} INFO - Started process (PID=128666) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:14:00.493-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:14:00.493-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:14:00.493-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:14:00.496-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:14:00.495-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:14:00.496-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:14:00.517-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.029 seconds
+[2022-10-12T16:14:30.648-0500] {processor.py:156} INFO - Started process (PID=128779) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:14:30.650-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:14:30.651-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:14:30.651-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:14:30.653-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:14:30.652-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:14:30.653-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:14:30.672-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.028 seconds
+[2022-10-12T16:15:00.918-0500] {processor.py:156} INFO - Started process (PID=128949) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:15:00.920-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:15:00.921-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:15:00.921-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:15:00.923-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:15:00.923-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:15:00.924-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:15:00.942-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.026 seconds
+[2022-10-12T16:15:31.143-0500] {processor.py:156} INFO - Started process (PID=129067) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:15:31.145-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:15:31.145-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:15:31.145-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:15:31.149-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:15:31.147-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-10-12T16:15:31.149-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:15:31.167-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.027 seconds
+[2022-10-12T16:16:49.231-0500] {processor.py:156} INFO - Started process (PID=129863) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:16:49.234-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:16:49.234-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:16:49.234-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:16:49.741-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:16:49.764-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.541 seconds
+[2022-10-12T16:17:20.355-0500] {processor.py:156} INFO - Started process (PID=130196) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:17:20.358-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:17:20.360-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:17:20.360-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:17:20.668-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:17:20.674-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.328 seconds
+[2022-10-12T16:17:51.477-0500] {processor.py:156} INFO - Started process (PID=130551) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:17:51.478-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:17:51.478-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:17:51.478-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:17:51.749-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:17:51.755-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.281 seconds
+[2022-10-12T16:18:22.131-0500] {processor.py:156} INFO - Started process (PID=130691) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:18:22.133-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:18:22.134-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:18:22.134-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:18:22.435-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:18:22.442-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.313 seconds
+[2022-10-12T16:18:52.672-0500] {processor.py:156} INFO - Started process (PID=130763) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:18:52.674-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:18:52.675-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:18:52.675-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:18:53.001-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:18:53.008-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.339 seconds
+[2022-10-12T16:19:23.987-0500] {processor.py:156} INFO - Started process (PID=130831) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:19:23.989-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T16:19:23.989-0500] {logging_mixin.py:117} INFO - [2022-10-12T16:19:23.989-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:19:24.266-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T16:19:24.274-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.289 seconds

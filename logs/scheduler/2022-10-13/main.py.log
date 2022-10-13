@@ -1,0 +1,212 @@
+[2022-10-12T20:12:31.306-0500] {processor.py:156} INFO - Started process (PID=179442) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:12:31.307-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T20:12:31.307-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:12:31.307-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:12:31.639-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:12:31.645-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.341 seconds
+[2022-10-12T20:13:02.357-0500] {processor.py:156} INFO - Started process (PID=179646) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:13:02.359-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T20:13:02.360-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:13:02.360-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:13:02.656-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:13:02.653-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 19, in <module>
+    export_count_txt = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2022-10-12T20:13:02.657-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:13:02.676-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.322 seconds
+[2022-10-12T20:13:32.962-0500] {processor.py:156} INFO - Started process (PID=179726) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:13:32.965-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T20:13:32.965-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:13:32.965-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:13:33.264-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:13:33.277-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.318 seconds
+[2022-10-12T20:14:03.620-0500] {processor.py:156} INFO - Started process (PID=179837) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:14:03.623-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T20:14:03.623-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:14:03.623-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:14:03.959-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:14:03.965-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.348 seconds
+[2022-10-12T20:14:34.934-0500] {processor.py:156} INFO - Started process (PID=179913) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:14:34.939-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T20:14:34.942-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:14:34.941-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:14:35.340-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:14:35.348-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.425 seconds
+[2022-10-12T20:15:05.916-0500] {processor.py:156} INFO - Started process (PID=180028) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:15:05.918-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T20:15:05.919-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:15:05.919-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:15:06.291-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:15:06.291-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 19, in <module>
+    export_count_txt = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2022-10-12T20:15:06.292-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:15:06.312-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.399 seconds
+[2022-10-12T20:15:37.150-0500] {processor.py:156} INFO - Started process (PID=180097) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:15:37.153-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T20:15:37.154-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:15:37.154-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:15:37.496-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:15:37.496-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 19, in <module>
+    export_count_txt = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2022-10-12T20:15:37.497-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:15:37.517-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.371 seconds
+[2022-10-12T20:16:07.994-0500] {processor.py:156} INFO - Started process (PID=180162) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:16:07.996-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T20:16:07.997-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:16:07.997-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:16:08.340-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:16:08.339-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 19, in <module>
+    export_count_txt = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2022-10-12T20:16:08.341-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:16:08.363-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.374 seconds
+[2022-10-12T20:16:38.405-0500] {processor.py:156} INFO - Started process (PID=180240) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:16:38.408-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T20:16:38.409-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:16:38.408-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:16:38.752-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:16:38.751-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 19, in <module>
+    export_count_txt = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2022-10-12T20:16:38.753-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:16:38.772-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.370 seconds
+[2022-10-12T20:17:09.191-0500] {processor.py:156} INFO - Started process (PID=180310) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:17:09.194-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T20:17:09.195-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:17:09.194-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:17:09.534-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:17:09.533-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 19, in <module>
+    export_count_txt = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2022-10-12T20:17:09.535-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:17:09.558-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.370 seconds
+[2022-10-12T20:17:40.018-0500] {processor.py:156} INFO - Started process (PID=180521) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:17:40.020-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T20:17:40.021-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:17:40.021-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:17:40.348-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:17:40.347-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 19, in <module>
+    export_count_txt = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2022-10-12T20:17:40.348-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:17:40.368-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.356 seconds
+[2022-10-12T20:18:10.835-0500] {processor.py:156} INFO - Started process (PID=180795) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:18:10.838-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T20:18:10.839-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:18:10.839-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:18:11.260-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:18:11.259-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 19, in <module>
+    export_count_txt = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2022-10-12T20:18:11.261-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:18:11.280-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.447 seconds
+[2022-10-12T20:18:41.848-0500] {processor.py:156} INFO - Started process (PID=180857) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:18:41.851-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T20:18:41.851-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:18:41.851-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:18:42.152-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:18:42.151-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 19, in <module>
+    export_count_txt = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2022-10-12T20:18:42.152-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:18:42.169-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.325 seconds
+[2022-10-12T20:19:12.695-0500] {processor.py:156} INFO - Started process (PID=180922) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:19:12.698-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T20:19:12.698-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:19:12.698-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:19:13.017-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:19:13.017-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 19, in <module>
+    export_count_txt = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2022-10-12T20:19:13.018-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:19:13.036-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.344 seconds
+[2022-10-12T20:19:43.601-0500] {processor.py:156} INFO - Started process (PID=181000) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:19:43.603-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T20:19:43.604-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:19:43.604-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:19:43.902-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:19:43.902-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 19, in <module>
+    export_count_txt = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2022-10-12T20:19:43.903-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:19:43.921-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.328 seconds
+[2022-10-12T20:20:14.370-0500] {processor.py:156} INFO - Started process (PID=181082) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:20:14.372-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T20:20:14.373-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:20:14.373-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:20:14.680-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:20:14.680-0500] {dagbag.py:330} ERROR - Failed to import: /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+Traceback (most recent call last):
+  File "/home/gabsiston/Documentos/projetos/airflow-data/venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gabsiston/Documentos/projetos/airflow-data/dags/main.py", line 19, in <module>
+    export_count_txt = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2022-10-12T20:20:14.681-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:20:14.698-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.331 seconds
+[2022-10-12T20:20:45.137-0500] {processor.py:156} INFO - Started process (PID=181187) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:20:45.139-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T20:20:45.140-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:20:45.139-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:20:45.140-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:20:45.140-0500] {dagbag.py:307} INFO - File /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py assumed to contain no DAGs. Skipping.
+[2022-10-12T20:20:45.140-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:20:45.155-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.021 seconds
+[2022-10-12T20:21:15.640-0500] {processor.py:156} INFO - Started process (PID=181260) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:21:15.645-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T20:21:15.646-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:21:15.646-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:21:15.647-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:21:15.647-0500] {dagbag.py:307} INFO - File /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py assumed to contain no DAGs. Skipping.
+[2022-10-12T20:21:15.647-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:21:15.660-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.023 seconds
+[2022-10-12T20:21:46.313-0500] {processor.py:156} INFO - Started process (PID=181332) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:21:46.315-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T20:21:46.316-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:21:46.316-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:21:46.317-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:21:46.317-0500] {dagbag.py:307} INFO - File /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py assumed to contain no DAGs. Skipping.
+[2022-10-12T20:21:46.317-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:21:46.328-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.019 seconds
+[2022-10-12T20:22:16.994-0500] {processor.py:156} INFO - Started process (PID=181415) to work on /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:22:17.032-0500] {processor.py:758} INFO - Processing file /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py for tasks to queue
+[2022-10-12T20:22:17.033-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:22:17.033-0500] {dagbag.py:525} INFO - Filling up the DagBag from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:22:17.034-0500] {logging_mixin.py:117} INFO - [2022-10-12T20:22:17.034-0500] {dagbag.py:307} INFO - File /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py assumed to contain no DAGs. Skipping.
+[2022-10-12T20:22:17.034-0500] {processor.py:770} WARNING - No viable dags retrieved from /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py
+[2022-10-12T20:22:17.050-0500] {processor.py:178} INFO - Processing /home/gabsiston/Documentos/projetos/airflow-data/dags/main.py took 0.061 seconds
